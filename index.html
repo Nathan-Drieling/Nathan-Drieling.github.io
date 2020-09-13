@@ -1,75 +1,91 @@
+<!DOCTYPE html>
 <html>
-    <!-- Nathans Website -->
-    <head>
-        <!-- Head will link Javascript and CSS files -->
-        <!-- CSS file link -->
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <head> 
+            <!-- HEADER DECLARATIONS --> 
+        
+        <!-- Metas to check sections of code after live preview is selected -->
+        <meta charset = "utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+         
+        <!-- BootstrapCDN linkes and Scripts from w3 schools-->
+        
+            <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
+        
         <!-- JQuery from Google API file link -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <!-- Javascript file link -->
+        
+        <!-- Javascript file(s) link -->
         <script src="script.js" type ="text/javascript"></script>
         
+        <!-- CSS file(s) link -->
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
         
         <!-- Code to allow permissions to use Various Brand Icons -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
+            <!-- END OF HEADER DECLARATIONS-->
+        
         <title>
             Nathan Drieling
         </title>
+        
     </head>
-    <!-- End of Title of Website-->
-    
-    <!-- About Me Section --> 
     <body>
-        <h1 id = "header">
-            <center>
-                Nathan Drieling
-            </center>
-            <center>
-                <i class="fa fa-github" style="font-size:48px;color:black"></i>
-                <i class="fa fa-linkedin-square" style="font-size:48px;color:blue"></i>
-                <i class="fa fa-stack-overflow" style="font-size:48px;color:darkorange"></i>
-            </center>
-        </h1>
-        
-        
-        <hr /> <!-- line break between header and rest of body -->
-        
-        
-        
-        
-        
-        <h2>
-            <p>My LinkedIn and Github Links:</p>
-        </h2>
-            <p>
-                LinkedIn:<a href="https://www.linkedin.com/in/nathan-drieling-7b3719187/">Here</a>
-            </p>
-            <p>
-                GitHub: <a href="https://github.com/Nathan-Drieling">Here</a>
-            </p>
-            
-        
-        
-        
-        
-        <p id = "inputrow">
-            <center>
-                <input type = "text" id = "inputfield">
-                <button id = "submitbutton"> Submit </button>
-            </center>
-        </p>
-        
-        <p id = "">
-            Test   
-        </p>
-        
-        <p>
-            <img src = "mycat.JPG" alt = "Mr. Whiskers" width = "300" height = "300" align = "left">
-            <img src = "CookieAndCoco.jpeg" alt = "Cookie and Coco" width = "300" height = "300" align = "left">
-            <img src = "Loki.jpeg" alt = "Cookie and Coco" width = "300" height = "300" align = "left">
-        </p>
-        
+        <canvas class="background"></canvas>
+        <script src="particles.js-master/dist/particles.min.js"></script>
+        <script>
+            var particles = Particles.init({
+                selector: '.background',
+                color: ['#adadad', 'adadad'],
+                connectParticles: true,
+                responsive: [{
+                    breakpoint: 800,
+                    options: {
+                        color: 'adadad',
+                        maxParticles: 100,
+                        connectParticles: false
+                    }
+                }]
+            });
+        </script>
+        <header>
+            <div class = "container">
+                <div class = "banner">
+                    <nav>
+                        <ul>
+                            <center>
+                            <li><a href ="index.html">Home</a></li>
+                            <li><a href ="about.html">About</a></li>
+                            <li><a href ="portfolio.html">Portfolio</a></li>
+                            <li><a href ="blog.html">Blog</a></li>
+                            <li><a href ="services.html">Services</a></li>
+                            <li><a href ="contact.html">Contact</a></li>
+                            </center>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <br>
+        <div class = "welcometext">
+            <h1>
+                <center>Welcome!</center>
+            </h1>
+            <ul class = "websitedirectory">
+                <center>
+                <b>Home</b> returns you here<br>
+                <b>Portfolio</b> shows you my code or current projects<br>
+                <b>Blog</b> Shows you my articles/opinions<br>
+                <b>Services</b> Shows you my you what technologies I offer<br>
+                <b>Contact</b> Alows you to email me with any questions you may have<br>
+                </center>
+            </ul>
+        </div>
     </body>
 </html>
