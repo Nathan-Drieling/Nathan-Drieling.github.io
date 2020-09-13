@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+            <!-- HEADER DECLARATIONS --> 
+        
+        <!-- Metas to check sections of code after live preview is selected -->
+        <meta charset = "utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+         
+        <!-- BootstrapCDN linkes and Scripts from w3 schools-->
+        
+            <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
+        
+        <!-- JQuery from Google API file link -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+        <!-- Javascript file(s) link -->
+        <script src="script.js" type ="text/javascript"></script>
+        
+        <!-- CSS file(s) link -->
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        
+        <!-- Code to allow permissions to use Various Brand Icons -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+            <!-- END OF HEADER DECLARATIONS-->
+        
+        <title>
+            Nathan Drieling
+        </title>
+        
+    </head>
+    <body>
+        <canvas class="background"></canvas>
+        <script src="particles.js-master/dist/particles.min.js"></script>
+        <script>
+            var particles = Particles.init({
+                selector: '.background',
+                color: ['#adadad', 'adadad'],
+                connectParticles: true,
+                responsive: [{
+                    breakpoint: 800,
+                    options: {
+                        color: 'adadad',
+                        maxParticles: 100,
+                        connectParticles: false
+                    }
+                }]
+            });
+        </script>
+        <header>
+            <div class = "container">
+                <div class = "banner">
+                    <nav>
+                        <ul>
+                            <center>
+                            <li><a href ="index.html">Home</a></li>
+                            <li><a href ="about.html">About</a></li>
+                            <li><a href ="portfolio.html">Portfolio</a></li>
+                            <li><a href ="blog.html">Blog</a></li>
+                            <li><a href ="services.html">Services</a></li>
+                            <li><a href ="contact.html">Contact</a></li>
+                            </center>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <br>
+        <div class = "welcometext">
+            <h1>
+                <center>Contact Me</center>
+            </h1>
+            <ul class = "websitedirectory">
+                <center>
+                    You can email me any questions or inquiries. I will be happy to answer any questions or set up a meeting with you. 
+                </center>
+                <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                <center>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email"><br>
+                    <br>
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject"><br>
+                    <br>
+                    <label for="message">Message:</label>
+                    <input type="text" id="message" name="message"><br>
+                    <br>
+                    <input type="submit" value="Send Email">
+                </center>
+                <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                You can also reach me in the following links by clicking the image: 
+                    
+                <a href="https://github.com/Nathan-Drieling">
+                    <i class="fa fa-github" style="font-size:48px;color:black"></i>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/nathan-drieling-7b3719187/">
+                    <i class ="fa fa-linkedin-square" style="font-size:48px;color:blue"></i>
+                </a>
+                
+                <a href="https://stackoverflow.com/users/4859541/nathan-drieling">
+                    <i class ="fa fa-stack-overflow" style="font-size:48px;color:darkorange"></i>
+                </a>
+                
+            </ul>
+        </div>
+    </body>
+</html>
