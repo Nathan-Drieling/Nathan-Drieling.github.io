@@ -1,14 +1,79 @@
-center {
-    font-size: 40;
-    color: black;
+html, body
+{
+    height: 100%;
+    font-family: sans-serif;
 }
 
-p {
+#particles-js
+{
+    height: 100%;
+    background-color: azure;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.header
+{
+    background-image: 
+}
+
+.containter
+{
+    background-color: darkgrey;
+}
+
+header
+{ 
+    line-height: 40px;
+    background-color: dimgrey;
+}
+
+.banner
+{
+    height: 50px;
+}
+
+ul li
+{
+    display: inline-block;
+    text-align: justify;
+}
+
+header nav ul li a
+{
+    padding-right: 38px;
+    color: ghostwhite;
+    transition: all 0.5s;
+}
+
+header nav ul li a:hover
+{
+    text-decoration: none;
+    color: red;
+}
+
+.welcometext {
     color: black;
+    text-align: justify;
+    font-size: 18px;
+    width: 1000px;
+    margin: auto;
     
 }
 
-body {
-    background-color: antiquewhite;
+.aboutmeprojectlist
+{
+    list-style: none;
+}
+
+.websitedirectory
+{
     
 }
