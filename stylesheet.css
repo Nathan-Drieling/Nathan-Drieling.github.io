@@ -1,14 +1,68 @@
+/* stylesheet.css file*/
+/*css class definition for general usage of HTML tags below*/
+/* .calls are for div classes only! All others are tag specific! */
 html, body
 {
     height: 100%;
     font-family: sans-serif;
 }
 
+header
+{ 
+    line-height: 40px;
+    background-color: dimgrey;
+}
+
+.containter
+{
+    background-color: darkgrey;
+}
+
+/* particles.js reference*/
 #particles-js
 {
     height: 100%;
     background-color: azure;
 }
+
+
+.welcometext 
+{
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+    width: 1000px;
+    margin: auto;
+}
+
+/*unordered list class definition for header links to different pages */
+/* appears in all pages*/
+ul.HeaderLinks
+{
+    margin: auto;
+    text-align: justify;
+}
+
+/* list tag class call for OtherPageLinks - the page links that you click on the header. */
+/* appears in all pages*/
+li.TopPageLinks
+{
+    display: inline-block;
+    text-align: justify; 
+}
+
+/*unordered lists class definition for ProgrammingLanguages unordered list*/
+/* only appears in services.html*/
+ul.ProgrammingLanguages
+{
+    margin: auto;
+    max-width: 50%;
+    text-align: left;
+    list-style-type: square;
+    font-size: 30px;  
+    float:left;
+}
+
 
 .background {
   position: absolute;
@@ -19,61 +73,21 @@ html, body
   z-index: -1;
 }
 
-.header
-{
-    background-image: 
-}
-
-.containter
-{
-    background-color: darkgrey;
-}
-
-header
-{ 
-    line-height: 40px;
-    background-color: dimgrey;
-}
-
 .banner
 {
     height: 50px;
 }
 
-ul li
-{
-    display: inline-block;
-    text-align: justify;
-}
 
-header nav ul li a
+header nav li a
 {
-    padding-right: 38px;
+    padding-right: 35px;
     color: ghostwhite;
     transition: all 0.5s;
 }
 
-header nav ul li a:hover
+header nav li a:hover
 {
     text-decoration: none;
     color: red;
-}
-
-.welcometext {
-    color: black;
-    text-align: justify;
-    font-size: 18px;
-    width: 1000px;
-    margin: auto;
-    
-}
-
-.aboutmeprojectlist
-{
-    list-style: none;
-}
-
-.websitedirectory
-{
-    
 }
