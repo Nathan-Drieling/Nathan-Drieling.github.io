@@ -91,3 +91,30 @@ header nav li a:hover
     text-decoration: none;
     color: red;
 }
+
+label
+{
+    display: block;
+    width: 270px;
+    text-align: center;
+}
+
+input
+{
+    box-shadow: 2px 2px 3px #666;
+    font-size: 20px;
+    outline: 0;
+    display: inline-block;
+    clear: left;
+}
+
+textarea
+{
+    resize: none;
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px #666;
+    font-size: 20px;
+    outline: 0;
+    display: inline-block;
+    clear: left;
+}
