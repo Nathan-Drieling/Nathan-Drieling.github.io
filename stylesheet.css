@@ -101,6 +101,7 @@ label
 
 input
 {
+    border: 2px solid black;
     box-shadow: 2px 2px 3px #666;
     font-size: 20px;
     outline: 0;
