@@ -55,12 +55,9 @@ li.TopPageLinks
 /* only appears in services.html*/
 ul.ProgrammingLanguages
 {
-    margin: auto;
-    max-width: 50%;
-    text-align: left;
-    list-style-type: square;
+    text-align: center;
+    list-style: decimal;
     font-size: 30px;  
-    float:left;
 }
 
 
