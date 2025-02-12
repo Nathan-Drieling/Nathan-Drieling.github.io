@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <head> 
             <!-- HEADER DECLARATIONS --> 
         
@@ -36,6 +37,7 @@
         </title>
         
     </head>
+
     <body>
         <canvas class="background"></canvas>
         <script src="particles.js-master/dist/particles.min.js"></script>
@@ -54,47 +56,113 @@
                 }]
             });
         </script>
+    
+        <!-- Header SECTION -->
         <header>
-            <div class = "container">
-                <div class = "banner">
-                    <nav>
-                        <ul class = "HeaderLinks">
-                            <center>
-                            <li class = "TopPageLinks"><a href ="index.html">Home</a></li>
-                            <li class = "TopPageLinks"><a href ="about.html">About</a></li>
-                            <li class = "TopPageLinks"><a href ="portfolio.html">Portfolio</a></li>
-                            <li class = "TopPageLinks"><a href ="services.html">Services</a></li>
-                            <li class = "TopPageLinks"><a href ="contact.html">Contact</a></li>
-                            </center>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href ="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href ="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href ="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href ="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href ="StackOverflow.html">StackOverflow</a>
+                    </li>
+                    <li>
+                        <a href ="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href ="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
+        <!-- End of HEADER SECTION -->
         <br>
-        <div class = "welcometext">
-        <h1>
-            <center>About Me</center>
-        </h1>
-        <p>
-        <img src = "mgccc.jpeg" alt = "mgccclogo" width = "90" height = "90" align = "right" style = "float: right; margin-left: 10px; margin-bottom: 5px; padding: 2px;"/>
-        My college academics began with two years at Mississippi Gulf Coast Community College. From the fall of 2012 to the fall of 2014, I went to both the Harrison County and the Jackson County Campuses. While attending, I persued (but did not attain) a Bachelor of Science.
-        </p>
-        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-        <p>
-        <img src = "usm.jpeg" alt = "usmlogo" width = "90" height = "90" align = "right" style = "float: right; margin-left: 10px; margin-bottom: 5px; padding: 2px;"/>
-        In the spring of 2015, I switched majors and transfered to the University of Southern Mississippi Gulf Park Campus. Here, I learned various programming langauges and technologies. My favorite classes were Artificial Intelligence, Database Management Systems, and Algorithms.
-        </p>
-        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-        <p>
-        <img src = "nasa.jpeg" alt = "nasalogo" width = "90" height = "90" align = "right" style = "float: right; margin-left: 10px; margin-bottom: 5px; padding: 2px;"/>
-            In the summer of 2018, I had the opprotunity to intern with the National Data Buoy Center located within NASA John C. Stennis Space Center, Mississippi. My internship project specifically dealt with helping the National Oceanic and Atmospheric Administration's main operations for gathering weather data for public use. Here, I gained my first real world software development experience by creating a database back end using <b>MariaDB</b> and testing it using the <b>Eclipse IDE</b> for the <b>Java</b> Programming language. In addition, I also created supporting charts and graphs of bouy coordinates using <b>MATLAB</b>. In my last week, I gave a presentation in front of the NDBC staff where I demonstrated some of the database functionalities along with all supporting front end test code and any other graphs, or charts which I had produced. 
-        </p>
-        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-        <p>
-             <img src = "NWIC.jpeg" alt = "NWIClogo" width = "90" height = "90" align = "right" style = "float: right; margin-left: 10px; margin-bottom: 5px; padding: 2px;"/>
-        After my internship, I returned to USM and graduated with my Bachelors of Computer Science in the spring of 2019. In March of 2020, the COVID-19 pandemic began and there was a significant gap of myself not being able to work. However, within November of 2020, I managed to secure a software development job with my current employer, Goldbelt, where I work with a Department of Defense contract for the NWIC (Naval Warfare Information Center).
-        </p>
-        </div>
+
+        <main>
+            <section class = "MainPageIntroText">
+                <h2>About Me</h2>
+            </section>
+            <section class = "AboutMeSectionText">
+                <p>    
+                    <img src = "mgccc.jpeg" alt = "Mississippi Gulf Coast Community College" class = "AboutMePictures"/>
+                    My college academics began with two years at Mississippi Gulf Coast Community College. 
+                    From the fall of 2012 to the fall of 2014, I went to both the Harrison County and the Jackson County Campuses. 
+                    While attending, I persued (but did not attain) a Bachelor of Science.
+                </p>
+            </section>
+            <hr>
+            <section class = "AboutMeSectionText">
+                <p>
+                    <img src = "usm.jpeg" alt = "The University of Southern Mississippi" class = "AboutMePictures"/>
+                    In the spring of 2015, I transfered to the University of Southern Mississippi 
+                    and switched my major to Computer Science where 
+                    I graduated with a <strong>3.0 GPA</strong> average in the spring of 2019.
+                    Here, I learned various programming langauges and technologies and had many great instructors. 
+                    I enjoyed all my coursework of which were <em>Data Structures, Object Oriented Programming, 
+                    Intro to Artificial Intelligence, Database Management Systems, Operating Systems, 
+                    Theory of Programming Languages and Algorithms, Software Engineering I and Software Engineering II</em>. 
+                    <br>
+                    <br>
+                    I used the <strong>C++</strong> programming language for most of my main core courses. 
+                    However, I also used <strong>Java</strong> for other courses, <strong>MySQL and SQL</strong> for my Database Management Systems class, 
+                    and even tinkered with some of the <strong>Python</strong> programming language for my Theory of Programming Languages class. I also was 
+                    exposed to using <strong>Agile Software Development</strong> from my Software Engineering I and Software Engineering II Capstone classes.
+                    <br>
+                    <br>
+                    Overall, my undergraduate years at USM was very personally fullilling. 
+                    I developed a great desire to make software products that could be used to 
+                    help my community and to serve my country in my own unique way. 
+                </p>
+            </section>
+            <hr>
+            <section class = "AboutMeSectionText">
+                <p>
+                    <img src = "nasa.jpeg" alt = "NASA" class = "AboutMePictures"/>
+                    In the summer of 2018, while still at USM, I had the unique opprotunity to do a three month internship at
+                    <strong>NASA John C. Stennis Space Center, Mississippi</strong> as a result of an instructors recommendation.
+                    The internship project 
+                    
+                    specifically dealt with helping the National Data Buoy Center
+                    and The National Oceanic and Atmospheric Administration's main operations for gathering weather data 
+                    for the public use. Here, I gained my first real world software development experience and what it would be like 
+                    to work in the industry
+                    <br>
+                    <br>
+                    by creating a database back end
+                    using MariaDB and testing it using the Eclipse IDE for the Java Programming language.
+                    In addition, I also created supporting charts and graphs of bouy coordinates using MATLAB.
+                    <br>
+                    <br>
+                    <img src = "NOAA.png" alt = "NASA" class = "AboutMePictures"/>
+                    In my last week, I gave a presentation in front of the NDBC staff where I demonstrated some of the database functionalities 
+                    along with all supporting front end test code and any other graphs, or charts which I had produced. 
+                </p>
+            </section>
+            <hr>
+            <section class = "AboutMeSectionText">
+                <p>
+                    <img src = "GoldBelt Inc. Logo.png" alt = "Naval Information Warfare Center - Atlantic" class = "AboutMePictures">
+                    In November of 2020, during the height of the COVID-19 pandemic, 
+                    I managed to secure a fully remote (and then hybrid) full time software development position in Metairie, Louisiana, 
+                    with a federal government contracting company based in Juneau, Alaska called Goldbelt Inc. 
+                    While employed with Goldbelt (and its subsidiary - Goldbelt Nighthawk), I worked on a personell management software 
+                    called My Navy Assignment- as part of a continuing contract for the United States Navy.
+                    <br>
+                    <br>
+                    where I work with a Department of Defense contract for the NWIC (Naval Warfare Information Center).
+
+                </p>
+            </section>
+        </main>
     </body>
 </html>

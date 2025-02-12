@@ -54,64 +54,103 @@
                 }]
             });
         </script>
+
+        
+        <!-- Header SECTION -->
         <header>
-            <div class = "container">
-                <div class = "banner">
-                    <nav>
-                        <ul class = "HeaderLinks">
-                            <center>
-                            <li class = "TopPageLinks"><a href ="index.html">Home</a></li>
-                            <li class = "TopPageLinks"><a href ="about.html">About</a></li>
-                            <li class = "TopPageLinks"><a href ="portfolio.html">Portfolio</a></li>
-                            <li class = "TopPageLinks"><a href ="services.html">Services</a></li>
-                            <li class = "TopPageLinks"><a href ="contact.html">Contact</a></li>
-                            </center>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href ="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href ="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href ="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href ="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href ="StackOverflow.html">StackOverflow</a>
+                    </li>
+                    <li>
+                        <a href ="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href ="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
+        <!-- End of HEADER SECTION -->
+
+
         <br>
+
         <div class = "welcometext">
+
             <h1>
-                <center>Contact</center>
+                Contact
             </h1>
+
             <ul class = "websitedirectory">
-                <center>
-                    You can email me any questions or inquiries. I will be happy to answer any questions or set up a meeting with you. 
-                </center>
+         
+                You can email me any questions or inquiries. I will be happy to answer any questions or set up a meeting with you. 
+              
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-                <div id = "ContactSection">
-                    <center>
+
+                <div id = "ContactSection" class = "ContactSection">
+               
                     <label for="firstname">
-                        First Name: <input type="text" id="name" name="name">
+                        First Name: 
+                        <input type="text" id="name" name="name">
                     </label>
+
                     <br>
+
                     <label for="lastname">
-                        Last Name: <input type="text" id="name" name="name">
+                        Last Name: 
+                        <input type="text" id="name" name="name">
                     </label>
+
                     <br>
+
                     <label for="email">
-                        Email: <input type="text" id="email" name="email">
+                        Email: 
+                        <input type="email" id="email" name="email">
+                        <span class="error-message">
+                            Please enter a valid email address.
+                        </span>
                     </label>
+
                     <br>
+
                     <label for="subject">
-                        Subject:  <input type="text" id="subject" name="subject">
+                        Subject:  
+                        <input type="text" id="subject" name="subject">
                     </label>
+
                     <br>
+
                     <label for="message">
-                        Message: <textarea type="text" id="message" name="message" cols="30" rows = "10" style="text-align: left; width: 270px; height: 100px;"></textarea>
+                        Message: 
+                        <textarea type="text" id="message" name="message" 
+                        cols="30" rows = "10" style="text-align: left; width: 270px; height: 100px;">
+                        </textarea>
                     </label>
+
                     <br>
-                    <input type="submit" value="Send Email" style="padding: 5px 25px;">
-                    </center>
+
+                    <!-- value = "Send Email" need to be included? -->
+                    <input type="submit" style="padding: 5px 25px;">
+  
                 </div>
+
                 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-                You can also reach me in the following links by clicking the image: 
-                    
-                <a href="https://github.com/Nathan-Drieling">
-                    <i class="fa fa-github" style="font-size:48px;color:black"></i>
-                </a>
+
+                You can also reach me by messaging me on my LinkedIn page: 
                 
                 <a href="https://www.linkedin.com/in/nathan-drieling-7b3719187/">
                     <i class ="fa fa-linkedin-square" style="font-size:48px;color:blue"></i>

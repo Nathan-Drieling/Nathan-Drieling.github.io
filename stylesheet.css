@@ -1,32 +1,85 @@
 /* stylesheet.css file*/
-/*css class definition for general usage of HTML tags below*/
-/* .calls are for div classes only! All others are tag specific! */
 html, body
 {
     height: 100%;
     font-family: sans-serif;
 }
 
-header
-{ 
-    line-height: 40px;
-    background-color: dimgrey;
-}
-
-.containter
-{
-    background-color: darkgrey;
-}
-
-/* particles.js reference*/
+/* PARTICLES.JS CSS REFERENCE!*/
 #particles-js
 {
     height: 100%;
     background-color: azure;
 }
 
+/* HEADER CSS */
+header
+{ 
+    background-color: dimgrey;
+    line-height: 50px;
+    
+}
 
-.welcometext 
+header nav
+{
+    text-align: center;
+    display: inline;
+}
+
+header nav li
+{
+    list-style-type: none;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header nav li a
+{
+    color: ghostwhite;
+    transition: all 0.5s;
+    font-size: 18px;
+}
+
+header nav li a:hover
+{
+    text-decoration: none;
+    color: red;
+}
+/* END OF HEADER AND NAV CSS MODS */
+
+/* WELCOME TEXT CSS FOR EACH PAGE */
+.MainPageIntroText
+{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    width: 1000px;
+    margin: auto;
+}
+
+/* MAIN BODY TEXT CSS FOR WELCOME PAGE */
+.WelcomePageNavigationText
+{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    width: 1000px;
+    margin: auto;
+}
+
+/* FOOTER CSS FOR EACH PAGE */
+footer
+{
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    width: 1000px;
+    margin: auto;
+}
+
+/* ABOUT ME SECTION TEXT */
+.AboutMeSectionText
 {
     color: black;
     text-align: justify;
@@ -35,30 +88,48 @@ header
     margin: auto;
 }
 
-/*unordered list class definition for header links to different pages */
-/* appears in all pages*/
-ul.HeaderLinks
+/* CSS SETTINGS FOR PICTURES ON ABOUT ME PAGE */
+.AboutMePictures
 {
-    margin: auto;
-    text-align: justify;
+    width: 90px;
+    height: 90px; 
+    float: right;
+    margin-left: 10px; 
+    margin-bottom: 5px; 
+    padding: 2px;
 }
 
-/* list tag class call for OtherPageLinks - the page links that you click on the header. */
-/* appears in all pages*/
-li.TopPageLinks
+/* CSS STYLING FOR LINE BREAKS IN VARIOUS PAGES */
+hr
 {
-    display: inline-block;
-    text-align: justify; 
+    height: 2px;
+    width: 1000px; 
+    border-width: 0;
+    color: gray; 
+    background-color: gray;
 }
+
+
+
+
+/* BLOG CSS FOR BLOG PAGE*/
+.blog
+{
+    text-align: justify;
+    display: inline-block;
+}
+
+
 
 /*unordered lists class definition for ProgrammingLanguages unordered list*/
 /* only appears in services.html*/
-ul.ProgrammingLanguages
+.ProgrammingLanguages
 {
-    text-align: center;
-    list-style: decimal;
-    list-style-type: square;
-    font-size: 20px;  
+    text-align: justify;
+    display: inline-block;
+    font-size: 18px;  
+    width: 500px;
+    margin: auto;
 }
 
 
@@ -77,18 +148,7 @@ ul.ProgrammingLanguages
 }
 
 
-header nav li a
-{
-    padding-right: 35px;
-    color: ghostwhite;
-    transition: all 0.5s;
-}
 
-header nav li a:hover
-{
-    text-decoration: none;
-    color: red;
-}
 
 label
 {
@@ -116,4 +176,10 @@ textarea
     outline: 0;
     display: inline-block;
     clear: left;
+}
+
+.ContactSection
+{
+    text-align: center;
+    display: inline-block;
 }

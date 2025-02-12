@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <head> 
             <!-- HEADER DECLARATIONS --> 
         
@@ -36,7 +37,10 @@
         </title>
         
     </head>
+    
     <body>
+
+        <!-- JS background to make particles on background call -->
         <canvas class="background"></canvas>
         <script src="particles.js-master/dist/particles.min.js"></script>
         <script>
@@ -54,37 +58,96 @@
                 }]
             });
         </script>
+        <!-- End of JS Particles script call -->
+
+        <!-- Header SECTION -->
         <header>
-            <div class = "container">
-                <div class = "banner">
-                    <nav>
-                        <ul class = "HeaderLinks">
-                            <center>
-                            <li class = "TopPageLinks"><a href ="index.html">Home</a></li>
-                            <li class = "TopPageLinks"><a href ="about.html">About</a></li>
-                            <li class = "TopPageLinks"><a href ="portfolio.html">Portfolio</a></li>
-                            <li class = "TopPageLinks"><a href ="services.html">Services</a></li>
-                            <li class = "TopPageLinks"><a href ="contact.html">Contact</a></li>
-                            </center>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href ="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href ="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href ="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href ="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href ="StackOverflow.html">StackOverflow</a>
+                    </li>
+                    <li>
+                        <a href ="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href ="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
+        <!-- End of HEADER SECTION -->
+
         <br>
-        <div class = "welcometext">
-            <h1>
-                <center>Welcome!</center>
-            </h1>
-            <ul class = "websitedirectory">
-                <center>
-                <b>Home</b> returns you here to this page<br>
-                <b>About</b> shows you a history of my professional experience<br>
-                <b>Portfolio</b> shows you my code or current projects (this section is a work in progress)<br>
-                <b>Services</b> Shows you what programming languages and technologies I offer a client or employer<br>
-                <b>Contact</b> Allows you to email me with any questions you may have<br>
-                </center>
-            </ul>
-        </div>
+
+        <!-- Beginning of MAIN section inside body -->
+        <main>
+            <section class = "MainPageIntroText">
+                <h2>Welcome</h2>
+                <p>
+                    This is my personal website. This site is for the purpose
+                    of showing my professional software development skills with web
+                    development languages and technologies as well as to 
+                    show my portfolio and my services to clients, colleagues as well as
+                    potential employers.
+                    <br>
+                    Please refer to the short naviation directory below and use the clickable 
+                    header above to reach the section your looking for.
+                </p>
+            </section>
+            <br>
+            <section class = "WelcomePageNavigationText">
+                <nav>
+                    <ul>
+                        <a href = "index.html" style = "color: black;"><strong>Home</strong></a>
+                        returns you to this page.
+                    </ul>
+                    <ul>
+                        <a href = "about.html" style = "color: black;"><strong>About</strong></a>
+                        shows you a history of my professional software development experience.
+                    </ul>
+                    <ul>
+                        <a href = "portfolio.html" style = "color: black;"><strong>Portfolio</strong></a>
+                        shows you my Github code repository for current or past projects.
+                    </ul>
+                    <ul>
+                        <a href = "blog.html" style = "color: black;"><strong>Blog</strong></a>
+                        brings you to my blogging page where I talk about a variety of topics.
+                    </ul>
+                    <ul>
+                        <a href = "StackOverflow.html" style = "color: black;"><strong>StackOverflow</strong></a>
+                        brings you to my StackOverflow account where I have helped answer various technical questions.
+                    </ul>
+                    <ul>
+                        <a href = "services.html" style = "color: black;"><strong>Services</strong></a>
+                        shows you what programming languages and technologies I can offer a potential client or employer.
+                    </ul>
+                    <ul>
+                        <a href = "contact.html" style = "color: black;"><strong>Contact</strong></a>
+                        allows you to reach out out to me with any questions you may have.
+                    </ul>
+                </nav>
+            </section>
+        </main>
+        <!-- End of MAIN section within the body -->
+
+        <!-- FOOTER SECTION -->
+        <footer>
+            <p>&copy; 2025 Nathan Drieling</p>
+        </footer>
+        <!-- END OF FOOTER SECTION -->
+
     </body>
 </html>
