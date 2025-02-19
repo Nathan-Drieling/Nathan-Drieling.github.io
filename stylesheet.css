@@ -68,6 +68,16 @@ header nav li a:hover
     margin: auto;
 }
 
+/* MAIN BODY TEXT CSS FOR MY PORTFOLIO PAGE */
+.MyPortfolioText
+{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    width: 1000px;
+    margin: auto;
+}
+
 /* FOOTER CSS FOR EACH PAGE */
 footer
 {
