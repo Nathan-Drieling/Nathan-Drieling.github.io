@@ -119,17 +119,12 @@ hr
     background-color: gray;
 }
 
-
-
-
 /* BLOG CSS FOR BLOG PAGE*/
 .blog
 {
     text-align: justify;
     display: inline-block;
 }
-
-
 
 /*unordered lists class definition for ProgrammingLanguages unordered list*/
 /* only appears in services.html*/
@@ -141,7 +136,6 @@ hr
     width: 500px;
     margin: auto;
 }
-
 
 .background {
   position: absolute;
@@ -156,9 +150,6 @@ hr
 {
     height: 50px;
 }
-
-
-
 
 label
 {
@@ -192,4 +183,10 @@ textarea
 {
     text-align: center;
     display: inline-block;
+}
+
+ul
+{
+    text-align: center;
+    list-style-position: inside;
 }
