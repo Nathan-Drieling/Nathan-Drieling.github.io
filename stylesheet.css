@@ -100,7 +100,7 @@ footer
 
 .ServicesSectionText
 {
-    
+
 }
 
 /* CSS SETTINGS FOR PICTURES ON ABOUT ME PAGE */
@@ -135,7 +135,7 @@ hr
 /* only appears in services.html*/
 .ProgrammingLanguages
 {
-    text-align: justify;
+    text-align: center;
     display: inline-block;
     font-size: 18px;  
     width: 500px;
