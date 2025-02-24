@@ -127,7 +127,11 @@ hr
 /* BLOG CSS FOR BLOG PAGE*/
 .blog
 {
+      color: black;
     text-align: center;
+    font-size: 18px;
+    width: 1000px;
+    margin: auto;
 }
 
 /*unordered lists class definition for ProgrammingLanguages unordered list*/
