@@ -127,8 +127,8 @@ hr
 /* BLOG CSS FOR BLOG PAGE*/
 .blog
 {
-      color: black;
-    text-align: center;
+    color: black;
+    text-align: justify;
     font-size: 18px;
     width: 1000px;
     margin: auto;
