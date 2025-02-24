@@ -100,7 +100,7 @@ footer
 
 .ServicesSectionText
 {
-
+    /* still working on this one.. */
 }
 
 /* CSS SETTINGS FOR PICTURES ON ABOUT ME PAGE */
@@ -187,6 +187,7 @@ textarea
 .ContactSection
 {
     text-align: center;
+    margin: auto;
 }
 
 ul
