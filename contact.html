@@ -85,38 +85,30 @@
             </nav>
         </header>
         <!-- End of HEADER SECTION -->
-
-
         <br>
 
-        <div class = "welcometext">
-
-            <h1>
-                Contact
-            </h1>
-
-            <ul class = "websitedirectory">
-         
-                You can email me any questions or inquiries. I will be happy to answer any questions or set up a meeting with you. 
-              
-                <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-
-                <div id = "ContactSection" class = "ContactSection">
-               
+        <main>
+            <section class = "MainPageIntroText">
+                <h1>
+                    Contact
+                </h1>
+                <p>
+                    You can email me any questions or inquiries. I will be happy to answer any questions or set up a meeting with you. 
+                </p>
+            </section>
+            <hr>
+            <section class = "ContactSection">
+                <form>
                     <label for="firstname">
                         First Name: 
                         <input type="text" id="name" name="name">
                     </label>
-
                     <br>
-
                     <label for="lastname">
                         Last Name: 
                         <input type="text" id="name" name="name">
                     </label>
-
                     <br>
-
                     <label for="email">
                         Email: 
                         <input type="email" id="email" name="email">
@@ -124,43 +116,23 @@
                             Please enter a valid email address.
                         </span>
                     </label>
-
                     <br>
-
                     <label for="subject">
                         Subject:  
                         <input type="text" id="subject" name="subject">
                     </label>
-
                     <br>
-
                     <label for="message">
                         Message: 
                         <textarea type="text" id="message" name="message" 
                         cols="30" rows = "10" style="text-align: left; width: 270px; height: 100px;">
                         </textarea>
                     </label>
-
-                    <br>
-
                     <!-- value = "Send Email" need to be included? -->
                     <input type="submit" style="padding: 5px 25px;">
-  
-                </div>
-
-                <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-
-                You can also reach me by messaging me on my LinkedIn page: 
-                
-                <a href="https://www.linkedin.com/in/nathan-drieling-7b3719187/">
-                    <i class ="fa fa-linkedin-square" style="font-size:48px;color:blue"></i>
-                </a>
-                
-                <a href="https://stackoverflow.com/users/4859541/nathan-drieling">
-                    <i class ="fa fa-stack-overflow" style="font-size:48px;color:darkorange"></i>
-                </a>
-                
-            </ul>
-        </div>
+                </form>
+            </section>
+            <hr>
+        </main>
     </body>
 </html>
