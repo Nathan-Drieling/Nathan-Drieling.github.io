@@ -1,0 +1,105 @@
+/* style.css file*/
+html, body
+{
+    height: 100%;
+    font-family: sans-serif;
+}
+
+/* PARTICLES.JS CSS REFERENCE!*/
+#particles-js
+{
+    height: 100%;
+    background-color: azure;
+}
+
+/* HEADER CSS */
+header
+{ 
+    background-color: dimgrey;
+    line-height: 50px;
+}
+
+.NavBar
+{
+    color: #FFFFFF;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: #FF6FFF;
+}
+
+/* CSS SETTINGS FOR PICTURES ON ABOUT ME PAGE */
+.AboutMePictures
+{
+    width: 75%;
+    height: 75%;
+}
+
+#USMImage
+{
+    width: 140px;
+    height: 150px;
+}
+
+#NASAImage
+{
+    width: 100px;
+    height: 150px;
+}
+
+#NOAAImage
+{
+    width: 100px;
+    height: 150px;
+}
+
+/* CSS STYLING FOR LINE BREAKS IN VARIOUS PAGES */
+hr
+{
+    height: 2px;
+    border-width: 0;
+    color:  dimgrey;
+    background-color:  dimgrey
+}
+
+/* CSS STYLING FOR LOGOS */
+
+#GitHubLogo
+{
+    font-size: 100px; 
+    color:black;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.banner
+{
+    height: 50px;
+}
+
+input
+{
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px #666;
+    font-size: 20px;
+    outline: 0;
+    display: inline-block;
+    clear: left;
+}
+
+textarea
+{
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px #666;
+    font-size: 20px;
+    outline: 0;
+}

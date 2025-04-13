@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Metas to check sections of code after live preview is selected -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+     
     <!-- BootstrapCDN linkes and Scripts from w3 schools-->
     
-        <!-- Latest compiled and minified CSS -->
+    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <!-- jQuery library -->
+    
+    <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <!-- Latest compiled JavaScript -->
+    
+    <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
     
     <!-- JQuery from Google API file link -->
@@ -21,20 +23,17 @@
     <script src="script.js" type ="text/javascript"></script>
     
     <!-- CSS file(s) link -->
-    <link rel="stylesheet" type="text/css" href= "./css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href= "./css/style.css">
 
     <!-- Bootstrap CSS file link -->
     <link rel="stylesheet" type="text/css" href= "./css/bootstrap.min.css">
     
     <!-- Code to allow permissions to use Various Brand Icons -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-        <!-- END OF HEADER DECLARATIONS-->
-    
-    <title>
-        Nathan Drieling
-    </title>
+
+    <title>Nathan Drieling</title>
 </head>
 <body>
     <!-- JS background to make particles on background call -->
@@ -55,96 +54,93 @@
             }]
         });
     </script>
-    <!-- End of JS Particles script call -->
-
-    <!-- Header SECTION -->
+    
+    <!-- HEADER -->
     <header role = "banner">
-        <nav>
-            <ul>
-                <li>
-                    <a href ="index.html">Home</a>
-                </li>
-                <li>
-                    <a href ="about.html">About</a>
-                </li>
-                <li>
-                    <a href ="portfolio.html">Portfolio</a>
-                </li>
-                <li>
-                    <a href ="blog.html">Blog</a>
-                </li>
-                <li>
-                    <a href ="StackOverflow.html">StackOverflow</a>
-                </li>
-                <li>
-                    <a href ="services.html">Services</a>
-                </li>
-                <li>
-                    <a href ="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-3 text-center text-uppercase fs-2">
+                    <a href ="index.html" class = "NavBar">
+                        Home
+                    </a>
+                </div>
+                <div class="col-sm-3 text-center text-uppercase fs-2">
+                    <a href ="about.html" class = "NavBar">
+                        About
+                    </a>
+                </div>
+                <div class="col-sm-3 text-center text-uppercase fs-2">
+                    <a href ="portfolio.html" class = "NavBar">
+                        Portfolio
+                    </a>
+                </div>
+                <div class="col-sm-3 text-center text-uppercase fs-2">
+                    <a href ="contact.html" class = "NavBar">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </div>
     </header>
-    <!-- End of HEADER SECTION -->
 
     <br>
 
-    <!-- Beginning of MAIN section inside body -->
-    <main>
-        <section class = "MainPageIntroText">
-            <h2>Welcome</h2>
-            <p>
-                This is my personal website. This site is for the purpose
-                of showing my professional software development skills with web
-                development languages and technologies as well as to 
-                show my portfolio and my services to clients, colleagues as well as
-                potential employers.
-                <br>
-                Please refer to the short naviation directory below and use the clickable 
-                header above to reach the section your looking for.
-            </p>
-        </section>
-        <br>
-        <section class = "WelcomePageNavigationText">
-            <nav>
-                <ul>
-                    <a href = "index.html" style = "color: black;"><strong>Home</strong></a>
-                    returns you to this page.
-                </ul>
-                <ul>
-                    <a href = "about.html" style = "color: black;"><strong>About</strong></a>
-                    shows you a history of my professional software development experience.
-                </ul>
-                <ul>
-                    <a href = "portfolio.html" style = "color: black;"><strong>Portfolio</strong></a>
-                    shows you my Github code repository for current or past projects.
-                </ul>
-                <ul>
-                    <a href = "blog.html" style = "color: black;"><strong>Blog</strong></a>
-                    brings you to my blogging page where I talk about a variety of topics.
-                </ul>
-                <ul>
-                    <a href = "StackOverflow.html" style = "color: black;"><strong>StackOverflow</strong></a>
-                    brings you to my StackOverflow account where I have helped answer various technical questions.
-                </ul>
-                <ul>
-                    <a href = "services.html" style = "color: black;"><strong>Services</strong></a>
-                    shows you what programming languages and technologies I can offer a potential client or employer.
-                </ul>
-                <ul>
-                    <a href = "contact.html" style = "color: black;"><strong>Contact</strong></a>
-                    allows you to reach out out to me with any questions you may have.
-                </ul>
-            </nav>
-        </section>
-    </main>
-    <!-- End of MAIN section within the body -->
+    <!-- my face (only few uses of an example if inline styling) -->
+    <img src="./pictures/My Face.jpg"
+     style = "height: 400px; width: 300px; border-radius: 50%; margin-left: auto; margin-right: auto; display:block; filter: brightness(80%); filter: contrast(80%);" 
+     alt = "My face">
 
+    <br>
+
+    <!-- Begin Main Section -->
+    <main>
+        <div class="container">
+            <div class="row-sm-12">
+                <p class="text-center fs-1">
+                    Welcome!
+                </p>
+                <p class="text-start fs-2">
+                    This is my personal website for the purpose
+                    of showing my professional software development skills with web
+                    development languages and technologies as well as to 
+                    show my portfolio and my services to clients, colleagues as well as
+                    potential employers. Please refer to the short naviation directory below or use the banner above. In addition if you wish to 
+                </p>
+            </div>
+        </div>
+        
+        <br>
+
+        <div class="container">
+            <div class="row-sm-12 text-center fs-3">
+                <p>
+                    <a href = "index.html" style = "color: black;">Home</a>
+                    returns you to this page.
+                </p>
+                <p>
+                    <a href = "about.html" style = "color: black;">About</a>
+                    shows you a history of my professional software development experience.
+                </p>
+                <p>
+                    <a href = "portfolio.html" style = "color: black;">Portfolio</a>
+                    shows you my Github code repository for current or past projects.
+                </p>
+                <p>
+                    <a href = "contact.html" style = "color: black;">Contact</a>
+                    allows you to reach out out to me with any questions you may have.
+                </p>
+            </div>
+        </div>
+    </main>
     <!-- FOOTER SECTION -->
     <footer>
-        <p>&copy; 2025 Nathan Drieling</p>
+        <div class="container">
+            <div class="row-sm-12">
+                <p class = "text-center fs-4">
+                    &copy; 2025 Nathan Drieling
+                </p>
+            </div>
+        </div>
     </footer>
-    <!-- END OF FOOTER SECTION -->
-
 </body>
 </html>

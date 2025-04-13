@@ -1,136 +1,153 @@
 <!DOCTYPE html>
-<html>
-    <head> 
-            <!-- HEADER DECLARATIONS --> 
-        
-        <!-- Metas to check sections of code after live preview is selected -->
-        <meta charset = "utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-         
-        <!-- BootstrapCDN linkes and Scripts from w3 schools-->
-        
-            <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-            <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-            <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
-        
-        <!-- JQuery from Google API file link -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        
-        <!-- Javascript file(s) link -->
-        <script src="script.js" type ="text/javascript"></script>
-        
-        <!-- CSS file(s) link -->
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
-        
-        <!-- Code to allow permissions to use Various Brand Icons -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-            <!-- END OF HEADER DECLARATIONS-->
-        
-        <title>
-            Nathan Drieling
-        </title>
-        
-    </head>
-    <body>
-        <canvas class="background"></canvas>
-        <script src="particles.js-master/dist/particles.min.js"></script>
-        <script>
-            var particles = Particles.init({
-                selector: '.background',
-                color: ['#adadad', 'adadad'],
-                connectParticles: true,
-                responsive: [{
-                    breakpoint: 800,
-                    options: {
-                        color: 'adadad',
-                        maxParticles: 100,
-                        connectParticles: false
-                    }
-                }]
-            });
-        </script>
+<html lang="en">
+<head>
 
-        
-        <!-- Header SECTION -->
-        <header role = "banner">
-            <nav>
-                <ul>
-                    <li>
-                        <a href ="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href ="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href ="portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href ="blog.html">Blog</a>
-                    </li>
-                    <li>
-                        <a href ="StackOverflow.html">StackOverflow</a>
-                    </li>
-                    <li>
-                        <a href ="services.html">Services</a>
-                    </li>
-                    <li>
-                        <a href ="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <!-- End of HEADER SECTION -->
-        <br>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <!-- BootstrapCDN linkes and Scripts from w3 schools-->
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
+    
+    <!-- JQuery from Google API file link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- Javascript file(s) link -->
+    <script src="script.js" type ="text/javascript"></script>
+    
+    <!-- CSS file(s) link -->
+    <link rel="stylesheet" type="text/css" href= "./css/style.css">
 
-        <main>
-            <section class = "MainPageIntroText">
-                <h2>
-                    Contact
-                </h2>
-                <p>
+    <!-- Bootstrap CSS file link -->
+    <link rel="stylesheet" type="text/css" href= "./css/bootstrap.min.css">
+    
+    <!-- Code to allow permissions to use Various Brand Icons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Nathan Drieling Portfolio Project</title>
+</head>
+<body>
+    <!-- JS background to make particles on background call -->
+    <canvas class="background"></canvas>
+    <script src="particles.js-master/dist/particles.min.js"></script>
+    <script>
+        var particles = Particles.init({
+            selector: '.background',
+            color: ['#adadad', 'adadad'],
+            connectParticles: true,
+            responsive: [{
+                breakpoint: 800,
+                options: {
+                    color: 'adadad',
+                    maxParticles: 100,
+                    connectParticles: false
+                }
+            }]
+        });
+    </script>
+    
+    <!-- HEADER -->
+    <header role = "banner">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-3 text-center text-uppercase fs-2">
+                    <a href ="index.html" class = "NavBar">
+                        Home
+                    </a>
+                </div>
+                <div class="col-sm-3 text-center text-uppercase fs-2">
+                    <a href ="about.html" class = "NavBar">
+                        About
+                    </a>
+                </div>
+                <div class="col-sm-3 text-center text-uppercase fs-2">
+                    <a href ="portfolio.html" class = "NavBar">
+                        Portfolio
+                    </a>
+                </div>
+                <div class="col-sm-3 text-center text-uppercase fs-2">
+                    <a href ="contact.html" class = "NavBar">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <br>
+    <main>
+        <div class="container">
+            <div class="row-sm-12">
+                <p class="text-center fs-1">
+                    Contact Me
+                </p>
+            </div>
+            <div class="row-sm-12">
+                <p class="text-center fs-2">
                     You can email me any questions or inquiries. I will be happy to answer any questions or set up a meeting with you. 
                 </p>
-            </section>
+            </div>
             <hr>
-            <section>
-                <form class = "ContactSection">
-                    <label for="firstname">
-                        First Name: 
-                        <input type="text" id="name" name="name">
-                    </label>
+            <div class="row d-flex mx-auto d-block justify-content-center align-items-center">
+                <p class="text-center fs-1">
+                    First Name:
                     <br>
-                    <label for="lastname">
-                        Last Name: 
-                        <input type="text" id="name" name="name">
+                    <label for = "firstname" 
+                        class = "text-center fs-4">
+                        <input type="text" id="firstname" name="name">
                     </label>
+                </p>
+            </div>
+            <div class="row d-flex mx-auto d-block justify-content-center align-items-center">
+                <p class="text-center fs-1">
+                    Last Name: 
                     <br>
-                    <label for="email">
-                        Email: 
-                        <input type="email" id="email" name="email">
-                        <span class="error-message">
-                            Please enter a valid email address.
-                        </span>
+                    <label for = "lastname" 
+                        class = "text-center fs-4">
+                        <input type="text" id="lastname" name="name">
                     </label>
+                </p>
+            </div>
+            <div class="row d-flex mx-auto d-block justify-content-center align-items-center">
+                <p class="text-center fs-1">
+                    Email:
                     <br>
-                    <label for="subject">
-                        Subject:  
-                        <input type="text" id="subject" name="subject">
+                    <label for = "email" 
+                        class = "text-center fs-4">
+                        <input type="text" id="email" name="name">
                     </label>
+                </p>
+            </div>
+            <div class="row d-flex mx-auto d-block justify-content-center align-items-center">
+                <p class="text-center fs-1">
+                    Subject:
                     <br>
-                    <label for="message">
-                        Message: 
-                        
+                    <label for = "subject" 
+                        class = "text-center fs-4">
+                        <input type="text" id="subject" name="name">
                     </label>
-                    <!-- value = "Send Email" need to be included? -->
-                    <input type="submit" style="padding: 5px 25px;">
-                </form>
-                <hr>
-            </section>
-        </main>
-    </body>
+                </p>
+            </div>
+            <div class="row d-flex mx-auto d-block justify-content-center align-items-center">
+                <p class="text-center fs-1">
+                    Message:
+                    <br>
+                    <textarea 
+                        type="text" id="message" name="message" 
+                        cols="60" rows = "10">
+                        Enter text here...
+                    </textarea>
+                </p>
+            </div>
+        </div>
+    </main>
+</body>
 </html>

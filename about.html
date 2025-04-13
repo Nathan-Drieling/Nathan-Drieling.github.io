@@ -1,164 +1,182 @@
 <!DOCTYPE html>
-<html>
-
-    <head> 
-            <!-- HEADER DECLARATIONS --> 
-        
-        <!-- Metas to check sections of code after live preview is selected -->
-        <meta charset = "utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-         
-        <!-- BootstrapCDN linkes and Scripts from w3 schools-->
-        
-            <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-            <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-            <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
-        
-        <!-- JQuery from Google API file link -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        
-        <!-- Javascript file(s) link -->
-        <script src="script.js" type ="text/javascript"></script>
-        
-        <!-- CSS file(s) link -->
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
-        
-        <!-- Code to allow permissions to use Various Brand Icons -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-            <!-- END OF HEADER DECLARATIONS-->
-        
-        <title>
-            Nathan Drieling
-        </title>
-        
-    </head>
-
-    <body>
-        <canvas class="background"></canvas>
-        <script src="particles.js-master/dist/particles.min.js"></script>
-        <script>
-            var particles = Particles.init({
-                selector: '.background',
-                color: ['#adadad', 'adadad'],
-                connectParticles: true,
-                responsive: [{
-                    breakpoint: 800,
-                    options: {
-                        color: 'adadad',
-                        maxParticles: 100,
-                        connectParticles: false
-                    }
-                }]
-            });
-        </script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-        <!-- Header SECTION -->
-        <header role = "banner">
-            <nav>
-                <ul>
-                    <li>
-                        <a href ="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href ="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href ="portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href ="blog.html">Blog</a>
-                    </li>
-                    <li>
-                        <a href ="StackOverflow.html">StackOverflow</a>
-                    </li>
-                    <li>
-                        <a href ="services.html">Services</a>
-                    </li>
-                    <li>
-                        <a href ="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <!-- End of HEADER SECTION -->
-        <br>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
+    
+    <!-- JQuery from Google API file link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- Javascript file(s) link -->
+    <script src="script.js" type ="text/javascript"></script>
+    
+    <!-- CSS file(s) link -->
+    <link rel="stylesheet" type="text/css" href= "./css/style.css">
 
-        <main>
-            <section class = "MainPageIntroText">
-                <h2>About Me</h2>
-            </section>
-            <section class = "AboutMeSectionText">
-                <p>    
-                    <img src = "mgccc.jpeg" alt = "Mississippi Gulf Coast Community College" class = "AboutMePictures"/>
-                    My college academics began with two years at Mississippi Gulf Coast Community College. 
-                    From the fall of 2012 to the fall of 2014, I went to both the Harrison County and the Jackson County Campuses. 
-                    While attending, I persued (but did not attain) a Bachelor of Science.
-                </p>
-            </section>
+    <!-- Bootstrap CSS file link -->
+    <link rel="stylesheet" type="text/css" href= "./css/bootstrap.min.css">
+    
+    <!-- Code to allow permissions to use Various Brand Icons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>About Me</title>
+
+</head>
+<body>
+    <!-- JS call for particle effects on background of pages -->
+    <canvas class="background"></canvas>
+    <script src="particles.js-master/dist/particles.min.js"></script>
+    <script>
+        var particles = Particles.init({
+            selector: '.background',
+            color: ['#adadad', 'adadad'],
+            connectParticles: true,
+            responsive: [{
+                breakpoint: 800,
+                options: {
+                    color: 'adadad',
+                    maxParticles: 100,
+                    connectParticles: false
+                }
+            }]
+        });
+    </script>
+    <!-- Header SECTION -->
+    <header role = "banner">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-3 text-center text-uppercase fs-2">
+                    <a href ="index.html" class = "NavBar">
+                        Home
+                    </a>
+                </div>
+                <div class="col-sm-3 text-center text-uppercase fs-2">
+                    <a href ="about.html" class = "NavBar">
+                        About
+                    </a>
+                </div>
+                <div class="col-sm-3 text-center text-uppercase fs-2">
+                    <a href ="portfolio.html" class = "NavBar">
+                        Portfolio
+                    </a>
+                </div>
+                <div class="col-sm-3 text-center text-uppercase fs-2">
+                    <a href ="contact.html" class = "NavBar">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <br>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center fs-1">
+                        About Me
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <p class="text-start fs-2">
+                        Immediately after graduating from my high school, my college academics followed with two years at Mississippi Gulf Coast Community College. From the fall of 2012 to the fall of 2014, I went to both the Harrison County and the Jackson County Campuses. While attending, I persued (but did not attain) a Bachelor of Science.
+                    </p>
+                </div>
+                <div class="col-2 d-flex mx-auto d-block justify-content-center align-items-center">
+                    <img src = "./pictures/mgccc.jpeg" id = "MGCCCLogo" alt = "Mississippi Gulf Coast Community College" class = "AboutMePictures"/>
+                </div>
+            </div>
             <hr>
-            <section class = "AboutMeSectionText">
-                <p>
-                    <img src = "usm.jpeg" alt = "The University of Southern Mississippi" class = "AboutMePictures"/>
-                    In the spring of 2015, I transfered to the University of Southern Mississippi 
-                    and switched my major to Computer Science where 
-                    I graduated with a <strong>3.0 GPA</strong> average in the spring of 2019.
-                    Here, I learned various programming langauges and technologies and had many great instructors. 
-                    I enjoyed all my coursework of which were <em>Data Structures, Object Oriented Programming, 
-                    Intro to Artificial Intelligence, Database Management Systems, Operating Systems, 
-                    Theory of Programming Languages and Algorithms, Software Engineering I and Software Engineering II</em>. 
-                    <br>
-                    <br>
-                    I used the <strong>C++</strong> programming language for most of my main core courses. 
-                    However, I also used <strong>Java</strong> for other courses, <strong>MySQL and SQL</strong> for my Database Management Systems class, 
-                    and even tinkered with some of the <strong>Python</strong> programming language for my Theory of Programming Languages class. I also was 
-                    exposed to using <strong>Agile Software Development</strong> from my Software Engineering I and Software Engineering II Capstone classes.
-                    <br>
-                    <br>
-                    Overall, my undergraduate years at USM was very personally fullilling. 
-                    I developed a great desire to make software products that could be used to 
-                    help my community and to serve my country in my own unique way. 
-                </p>
-            </section>
+            <div class="row">
+                <div class="col-10">
+                    <p class = "text-start fs-2">
+                        In the spring of 2015, I transfered to the University of Southern Mississippi 
+                        and switched my major to Computer Science where 
+                        I graduated with a <strong>3.0 GPA</strong> average in the spring of 2019.
+                        Here, I learned various programming langauges and technologies and had many great instructors. 
+                        I enjoyed all my coursework of which were <em>Data Structures, Object Oriented Programming, 
+                        Intro to Artificial Intelligence, Database Management Systems, Operating Systems, 
+                        Theory of Programming Languages and Algorithms, Software Engineering I and Software Engineering II</em>.
+                    </p>
+                </div>
+                <div class="col-2 d-flex mx-auto d-block justify-content-center align-items-center">
+                    <img src = "./pictures/USM Image 3.png" id = "USMImage" alt = "The University of Southern Mississippi" class = "AboutMePictures"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class = "text-start fs-2">
+                        I used the <strong>C++</strong> programming language for most of my main core courses. 
+                        However, I also used <strong>Java</strong> for <em>Object Oriented Programming</em>, <strong>MySQL and SQL</strong> for my <em>Database Management Systems class</em>, 
+                        and even tinkered with some <strong>Python</strong> for my <em>
+                        Theory of Programming Languages class
+                        </em>. I also was 
+                        exposed to using <strong>Agile Software Development</strong> and <em>SCRUM</em> from my
+                        <em>Software Engineering I</em> and <em>Software Engineering II</em> Capstone classes. 
+                    </p>
+                </div>
+            </div>
             <hr>
-            <section class = "AboutMeSectionText">
-                <p>
-                    <img src = "nasa.jpeg" alt = "NASA" class = "AboutMePictures"/>
-                    In the summer of 2018, while still at USM, I had the unique opprotunity to do a three month internship at
-                    <strong>NASA John C. Stennis Space Center, Mississippi</strong> as a result of an instructors recommendation.
-                    The internship project 
-                    
-                    specifically dealt with helping the National Data Buoy Center
-                    and The National Oceanic and Atmospheric Administration's main operations for gathering weather data 
-                    for the public use. Here, I gained my first real world software development experience and what it would be like 
-                    to work in the industry
-                    <br>
-                    <br>
-                    by creating a database back end
-                    using MariaDB and testing it using the Eclipse IDE for the Java Programming language.
-                    In addition, I also created supporting charts and graphs of bouy coordinates using MATLAB.
-                    <br>
-                    <br>
-                    <img src = "NOAA.png" alt = "NASA" class = "AboutMePictures"/>
-                    In my last week, I gave a presentation in front of the NDBC staff where I demonstrated some of the database functionalities 
-                    along with all supporting front end test code and any other graphs, or charts which I had produced. 
-                </p>
-            </section>
+            <div class="row">
+                <div class="col-10">
+                    <p class = "text-start fs-2">
+                        In the summer of 2018, while still at USM, I had the unique opprotunity to do a three month internship at <strong>NASA John C. Stennis Space Center, Mississippi</strong> as per a recommendation by one of my instructors.
+                        The internship project specifically dealt with helping the <em>National Data Buoy Center</em> 
+                        and <em>The National Oceanic and Atmospheric Administration</em> main operation for gathering weather data for the public use. Here, I gained my first real world software development experience and what it would be like to work in the software development industry.
+                    </p>
+                </div>
+                <div class="col-2 d-flex mx-auto d-block justify-content-center align-items-center">
+                    <img src = "./pictures/nasa.jpeg" id = "NASAImage" alt = "Nasa logo" class = "AboutMePictures"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <p class = "text-start fs-2">
+                        For my project, I created a database back end
+                        using <strong>MariaDB</strong> and testing it using the <strong>Eclipse IDE</strong> for the Java Programming language. In addition, I also created supporting charts and graphs of bouy coordinates using <strong>MATLAB</strong>. In my last week, I gave a presentation in front of the NDBC staff where I demonstrated some of the database functionalities along with all supporting front end test code and any other graphs or charts which I had produced. 
+                    </p>
+                </div>
+                <div class="col-2 d-flex mx-auto d-block justify-content-center align-items-center">
+                    <img src = "./pictures/NOAA.png" id = "NOAAImage" alt = "NOAA logo" class = "AboutMePictures"/>
+                </div>
+            </div>
             <hr>
-            <section class = "AboutMeSectionText">
-                <p>
-                    <img src = "GoldBelt Inc. Logo.png" alt = "Naval Information Warfare Center - Atlantic" class = "AboutMePictures">
-                    In November of 2020, during the height of the COVID-19 pandemic, 
-                    I managed to secure a fully remote (and then hybrid) full time software development position in Metairie, Louisiana, 
-                    with a federal government contracting company based in Juneau, Alaska called Goldbelt Inc. 
-                    While employed with Goldbelt (and its subsidiary - Goldbelt Nighthawk), I worked on a personell management software 
-                    called My Navy Assignment- as part of a continuing contract for the United States Navy.
-                </p>
-            </section>
-        </main>
-    </body>
+            <div class="row">
+                <div class="col-10">
+                    <p class="text-start fs-2">
+                        In November of 2020, during the height of the COVID-19 pandemic, I managed to secure a fully remote (and then hybrid) full time software development position in Metairie, Louisiana, with a federal government contracting company based in Juneau, Alaska called Goldbelt Inc. While employed with Goldbelt (and its subsidiary - Goldbelt Nighthawk), I worked on a personell management software called My Navy Assignment- as part of a continuing contract for the United States Navy.
+                    </p>
+                </div>
+                <div class="col-2 d-flex mx-auto d-block justify-content-center align-items-center">
+                    <img src = "./pictures/GoldBelt Inc. Logo.png" id = "GoldbeltImage" alt = "Goldbelt logo" class = "AboutMePictures"/>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <p class="text-start fs-2">
+                        Finally, I returned to the Mississippi Gulf Coast and began persuing my Full Stack Coder Certificate with the Mississippi Coding Academy. 
+                    </p>
+                </div>
+                <div class="col-2 d-flex mx-auto d-block justify-content-center align-items-center">
+                    <img src = "./pictures/MSCodingLogo.png" id = "MSCodingImage" alt = "MSCoding logo" class = "AboutMePictures"/>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
 </html>

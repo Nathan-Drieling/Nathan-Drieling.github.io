@@ -1,126 +1,146 @@
 <!DOCTYPE html>
-<html>
-    <head> 
-            <!-- HEADER DECLARATIONS --> 
-        
-        <!-- Metas to check sections of code after live preview is selected -->
-        <meta charset = "utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-         
-        <!-- BootstrapCDN linkes and Scripts from w3 schools-->
-        
-            <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-            <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-            <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
-        
-        <!-- JQuery from Google API file link -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        
-        <!-- Javascript file(s) link -->
-        <script src="script.js" type ="text/javascript"></script>
-        
-        <!-- CSS file(s) link -->
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
-        
-        <!-- Code to allow permissions to use Various Brand Icons -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-            <!-- END OF HEADER DECLARATIONS-->
-        
-        <title>
-            Nathan Drieling
-        </title>
-        
-    </head>
-    <body>
-        <canvas class="background"></canvas>
-        <script src="particles.js-master/dist/particles.min.js"></script>
-        <script>
-            var particles = Particles.init({
-                selector: '.background',
-                color: ['#adadad', 'adadad'],
-                connectParticles: true,
-                responsive: [{
-                    breakpoint: 800,
-                    options: {
-                        color: 'adadad',
-                        maxParticles: 100,
-                        connectParticles: false
-                    }
-                }]
-            });
-        </script>
-       
-        <!-- Header SECTION -->
-        <header role = "banner">
-            <nav>
-                <ul>
-                    <li>
-                        <a href ="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href ="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href ="portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href ="blog.html">Blog</a>
-                    </li>
-                    <li>
-                        <a href ="StackOverflow.html">StackOverflow</a>
-                    </li>
-                    <li>
-                        <a href ="services.html">Services</a>
-                    </li>
-                    <li>
-                        <a href ="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <!-- End of HEADER SECTION -->
-        <br>
+<html lang="en">
+<head>
 
-        <main>
-            <section class = "MainPageIntroText">
-                <h2>My Portfolio</h2>
-            </section>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <!-- BootstrapCDN linkes and Scripts from w3 schools-->
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
+    
+    <!-- JQuery from Google API file link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- Javascript file(s) link -->
+    <script src="script.js" type ="text/javascript"></script>
+    
+    <!-- CSS file(s) link -->
+    <link rel="stylesheet" type="text/css" href= "./css/style.css">
 
-            <section class = "MyPortfolioText">
-                <p>
-                    To see more of my portfolio of programming projects, please click the Github icon. 
-                </p>
-                <a href="https://github.com/Nathan-Drieling">
-                <i class ="fa fa-github" style="font-size:48px; color:black"></i>
-                </a>
-            </section>
+    <!-- Bootstrap CSS file link -->
+    <link rel="stylesheet" type="text/css" href= "./css/bootstrap.min.css">
+    
+    <!-- Code to allow permissions to use Various Brand Icons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-            <section>
-                <ul>
-                    <li>
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- JS background to make particles on background call -->
+    <canvas class="background"></canvas>
+    <script src="particles.js-master/dist/particles.min.js"></script>
+    <script>
+        var particles = Particles.init({
+            selector: '.background',
+            color: ['#adadad', 'adadad'],
+            connectParticles: true,
+            responsive: [{
+                breakpoint: 800,
+                options: {
+                    color: 'adadad',
+                    maxParticles: 100,
+                    connectParticles: false
+                }
+            }]
+        });
+    </script>
+    
+    <!-- HEADER -->
+    <header role = "banner">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-3 text-center text-uppercase fs-2">
+                    <a href ="index.html" class = "NavBar">
+                        Home
+                    </a>
+                </div>
+                <div class="col-sm-3 text-center text-uppercase fs-2">
+                    <a href ="about.html" class = "NavBar">
+                        About
+                    </a>
+                </div>
+                <div class="col-sm-3 text-center text-uppercase fs-2">
+                    <a href ="portfolio.html" class = "NavBar">
+                        Portfolio
+                    </a>
+                </div>
+                <div class="col-sm-3 text-center text-uppercase fs-2">
+                    <a href ="contact.html" class = "NavBar">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <br>
+
+    <!-- Begin Main Section -->
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center fs-1">
+                        My Portfolio
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <p class="text-start fs-2">
+                        This page is for showing off my various coding assignments or projects over my years in the industry. To see more of my portfolio of programming projects, please click the Github icon to the right.
+                    </p>
+                </div>
+                <div class="col-2 d-flex mx-auto d-block justify-content-center align-items-center">
+                    <a href="https://github.com/Nathan-Drieling">
+                        <i class ="fa fa-github" id = "GitHubLogo"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="text-center fs-2">
                         <a href="https://github.com/Nathan-Drieling/CSC412-Intro-to-Artificial-Intelligence-8-Slider-Puzzle/blob/master/CSC412-8SliderPuzzle.cpp" style = "font-size: 24px;">
-                        CSC 412: Intro to Artificial Intelligence 8 Slider Puzzle Assignment</a>
-                    </li>
-                    <li>
+                            CSC 412: Intro to Artificial Intelligence 8 Slider Puzzle Assignment</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="text-center fs-2">
                         <a href="https://github.com/Nathan-Drieling/CSC412-Intro-to-Artificial-Intelligence-Maze-Program/blob/master/CSC412-MazeProgram-NathanDrieling.cpp" style = "font-size: 24px;">
-                        CSC 412: Intro to Artificial Intelligence 10 x 10 Maze Program</a>
-                    </li>
-                    <li>
+                            CSC 412: Intro to Artificial Intelligence 10 x 10 Maze Program</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="text-center fs-2">
                         <a href="https://github.com/Nathan-Drieling/CSC-306-Operating-Systems-Project/blob/main/CSC%20306%20Operating%20Systems%20Project.cpp" style = "font-size: 24px;">
-                        CSC 306: Operating Systems I Project</a>
-                    </li>
-                    <li>
+                            CSC 306: Operating Systems I Project</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="text-center fs-2">
                         <a href="https://github.com/Nathan-Drieling/CSC-413-Various-Sorting-Algorithms-Project/blob/main/CSC%20413%20Sorthing%20Algorithms.cpp" style = "font-size: 24px;">
-                        CSC 413: Algorithms - Various Sorting Algorithms Project</a>
-                    </li>
-                </ul>
-            </section>
+                            CSC 413: Algorithms - Various Sorting Algorithms Project</a>
+                    </p>
+                </div>
+            </div>
 
-        </main>
-    </body>
+        </div>
+    </main>
+</body>
 </html>

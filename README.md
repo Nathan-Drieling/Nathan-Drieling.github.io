@@ -1,1 +1,1 @@
-This is my resume website. 
+This is my resume website but for a bootstrap version.
